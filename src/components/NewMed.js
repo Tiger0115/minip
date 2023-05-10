@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 
 export default function NewMed() {
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/> */}
 
         
         <div className='container my-3'>

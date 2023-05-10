@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 
 export default function SearchMed() {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
 
       <form className='container my-5'>
       <div className="row mb-3">        

@@ -16,19 +16,19 @@ export default function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/">New Medicine</a>
+                        <a className="nav-link active" aria-current="page" href="/NewMed">New Medicine</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/">Search Med</a>
+                        <a className="nav-link active" aria-current="page" href="/SearchMed">Search Med</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/">Add Stock</a>
+                        <a className="nav-link active" aria-current="page" href="/AddStock">Add Stock</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/">Stock Alert</a>
+                        <a className="nav-link active" aria-current="page" href="/StockAlert">Stock Alert</a>
                     </li>
                     
                    
