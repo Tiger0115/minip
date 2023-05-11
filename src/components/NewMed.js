@@ -1,11 +1,18 @@
-import React from 'react'
-// import Navbar from './Navbar'
+import React,{useState} from 'react';
+
 
 export default function NewMed() {
+
+    const [mName, setmName]= useState("");
+    const [uid, setUid]= useState("");
+    const [disease, setDisease]= useState("");
+    const [cpu, setCpu]= useState("");
+    const [stock, setstock]= useState("");
+    const [allergy, setAllergy]= useState("");
+
+
   return (
     <>
-        {/* <Navbar/> */}
-
         
         <div className='container my-3'>
         <h3>Add New Medicine</h3>

@@ -3,6 +3,16 @@ import React from 'react'
 
 
 export default function AddStock() {
+
+    const [mName, setmName]= useState("");
+    const [uid, setUid]= useState("");
+    const [disease, setDisease]= useState("");
+    const [cpu, setCpu]= useState("");
+    const [stock, setstock]= useState("");
+    const [allergy, setAllergy]= useState("");
+
+
+
   return (
     <>
        {/* <Navbar/> */}

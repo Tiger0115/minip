@@ -1,6 +1,5 @@
 import './App.css';
-import Register from './components/Register';
-import Login from './components/Login';
+import React,{useState} from 'react';
 import AddStock from './components/AddStock';
 import StockAlert from './components/StockAlert';
 import SearchMed from './components/SearchMed';
@@ -16,6 +15,10 @@ import {
 } from "react-router-dom";
 
 function App() {
+
+
+
+
   return (
     <>
     <Navbar/>
